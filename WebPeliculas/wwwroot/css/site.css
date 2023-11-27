@@ -1,0 +1,175 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #dbf5f1;
+}
+
+/* Estilos para la imagen */
+.img-fluid {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: auto; /* Centrar la imagen */
+    max-height: 300px; /* Ajusta la altura máxima según sea necesario */
+}
+
+
+
+    .jumbotron h1 {
+        color: #00df;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+
+        .jumbotron ul li {
+            margin-bottom: 1rem;
+        }
+
+    .jumbotron .btn {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .jumbotron img {
+        max-width: 10%;
+        height: auto;
+        display: block;
+        margin: auto;
+        max-height: 300px;
+    }
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.action-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+    .action-buttons a.edit {
+        background-color: #007bff;
+    }
+
+    .action-buttons a.details {
+        background-color: #28a745;
+    }
+
+    .action-buttons a.delete {
+        background-color: #dc3545;
+    }
+
+    .action-buttons a:hover {
+        opacity: 0.8;
+    }
+
+.action-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+    .action-buttons a.edit {
+        background-color: #007bff;
+    }
+
+    .action-buttons a.back {
+        background-color: #6c757d;
+    }
+
+    .action-buttons a:hover {
+        opacity: 0.8;
+    }
+
+    /*--------------------------------------------*/
+
+
+        h1, h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+
+        a {
+            color: #258cfb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+.footer {
+    background-color: #fff; /* Fondo blanco */
+
+}
